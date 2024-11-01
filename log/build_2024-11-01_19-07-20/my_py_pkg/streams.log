@@ -1,0 +1,30 @@
+[0.639s] Invoking command in '/home/g_g/workspaces/ros2_py_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/build --no-deps symlink_data
+[0.796s] running develop
+[0.796s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.796s] !!
+[0.797s] 
+[0.797s]         ********************************************************************************
+[0.797s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.797s]         Instead, use pypa/build, pypa/installer or other
+[0.797s]         standards-based tools.
+[0.797s] 
+[0.797s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.797s]         ********************************************************************************
+[0.797s] 
+[0.797s] !!
+[0.797s]   easy_install.initialize_options(self)
+[0.887s] running egg_info
+[0.895s] writing my_py_pkg.egg-info/PKG-INFO
+[0.896s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.896s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.896s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.896s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.914s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.914s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.924s] running build_ext
+[0.924s] Creating /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[0.924s] Installing my_publisher script to /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[0.924s] Installing my_subscriber script to /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[0.925s] 
+[0.925s] Installed /home/g_g/workspaces/ros2_py_ws/build/my_py_pkg
+[0.925s] running symlink_data

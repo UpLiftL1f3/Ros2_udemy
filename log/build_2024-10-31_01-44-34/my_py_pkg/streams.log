@@ -1,0 +1,38 @@
+[0.516s] Invoking command in '/home/g_g/workspaces/ros2_py_ws/build/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/build --no-deps symlink_data
+[0.689s] running develop
+[0.690s] /usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[0.690s] !!
+[0.690s] 
+[0.690s]         ********************************************************************************
+[0.690s]         Please avoid running ``setup.py`` and ``easy_install``.
+[0.690s]         Instead, use pypa/build, pypa/installer or other
+[0.690s]         standards-based tools.
+[0.690s] 
+[0.690s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[0.690s]         ********************************************************************************
+[0.690s] 
+[0.690s] !!
+[0.690s]   easy_install.initialize_options(self)
+[0.782s] running egg_info
+[0.782s] creating my_py_pkg.egg-info
+[0.790s] writing my_py_pkg.egg-info/PKG-INFO
+[0.790s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[0.790s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[0.790s] writing requirements to my_py_pkg.egg-info/requires.txt
+[0.790s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[0.790s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.806s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.806s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[0.815s] running build_ext
+[0.815s] Creating /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.12/site-packages/my-py-pkg.egg-link (link to .)
+[0.815s] Installing my_publisher script to /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[0.815s] Installing my_subscriber script to /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/my_py_pkg
+[0.815s] 
+[0.815s] Installed /home/g_g/workspaces/ros2_py_ws/build/my_py_pkg
+[0.815s] running symlink_data
+[0.816s] creating /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index
+[0.816s] creating /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.816s] creating /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.816s] symbolically linking /home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/resource/my_py_pkg -> /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.816s] symbolically linking /home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/package.xml -> /home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/share/my_py_pkg
+[0.837s] Invoked command in '/home/g_g/workspaces/ros2_py_ws/build/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/g_g/workspaces/ros2_py_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/g_g/workspaces/ros2_py_ws/build/my_py_pkg/build --no-deps symlink_data

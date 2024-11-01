@@ -1,0 +1,79 @@
+[0.126s] Invoking command in '/home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/g_g/workspaces/ros2_py_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg
+[0.179s] -- The C compiler identification is GNU 13.2.0
+[0.229s] -- The CXX compiler identification is GNU 13.2.0
+[0.242s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.345s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.346s] -- Detecting C compile features - done
+[0.352s] -- Detecting CXX compiler ABI info
+[0.433s] -- Detecting CXX compiler ABI info - done
+[0.441s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.444s] -- Detecting CXX compile features
+[0.444s] -- Detecting CXX compile features - done
+[0.446s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.540s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.584s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.599s] -- Found rclpy: 7.1.2 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.676s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.735s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.735s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.738s] -- Added test 'lint_cmake' to check CMake code style
+[0.738s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.738s] -- Added test 'xmllint' to check XML markup files
+[0.738s] -- Configuring done (0.6s)
+[0.743s] -- Generating done (0.0s)
+[0.744s] -- Build files have been written to: /home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg
+[0.749s] Invoked command in '/home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/g_g/workspaces/ros2_py_ws/src/udemy_ros2_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg
+[0.749s] Invoking command in '/home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.779s] Built target ament_cmake_python_symlink_scripts
+[0.888s] running egg_info
+[0.888s] creating scripts.egg-info
+[0.894s] writing scripts.egg-info/PKG-INFO
+[0.894s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[0.894s] writing top-level names to scripts.egg-info/top_level.txt
+[0.894s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.918s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[0.919s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[0.934s] Built target ament_cmake_python_build_scripts_egg
+[0.941s] Invoked command in '/home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg -- -j4 -l4
+[0.961s] Invoking command in '/home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg
+[0.964s] -- Install configuration: ""
+[0.965s] -- Execute custom install script
+[0.965s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.sh
+[0.969s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/pythonpath.dsv
+[0.974s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts-0.0.0-py3.12.egg-info/PKG-INFO
+[0.977s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts-0.0.0-py3.12.egg-info/SOURCES.txt
+[0.981s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts-0.0.0-py3.12.egg-info/dependency_links.txt
+[0.986s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts-0.0.0-py3.12.egg-info/top_level.txt
+[0.991s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/__init__.py
+[0.995s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/publisher.py
+[0.999s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/rpm_pub.py
+[1.005s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/rpm_sub.py
+[1.010s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/subscriber.py
+[1.016s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/publisher.py
+[1.021s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/subscriber.py
+[1.025s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_pub.py
+[1.030s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/udemy_ros2_pkg/rpm_sub.py
+[1.034s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/udemy_ros2_pkg
+[1.038s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/udemy_ros2_pkg
+[1.042s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.sh
+[1.046s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/ament_prefix_path.dsv
+[1.050s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.sh
+[1.054s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/environment/path.dsv
+[1.059s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.bash
+[1.063s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.sh
+[1.066s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.zsh
+[1.070s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/local_setup.dsv
+[1.074s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.dsv
+[1.078s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/ament_index/resource_index/packages/udemy_ros2_pkg
+[1.082s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig.cmake
+[1.085s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/cmake/udemy_ros2_pkgConfig-version.cmake
+[1.090s] -- Symlinking: /home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/share/udemy_ros2_pkg/package.xml
+[1.115s] Listing '/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts'...
+[1.115s] Compiling '/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/__init__.py'...
+[1.115s] Compiling '/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/publisher.py'...
+[1.115s] Compiling '/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/rpm_pub.py'...
+[1.115s] Compiling '/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/rpm_sub.py'...
+[1.115s] Compiling '/home/g_g/workspaces/ros2_py_ws/install/udemy_ros2_pkg/lib/python3.12/site-packages/scripts/subscriber.py'...
+[1.121s] Invoked command in '/home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/g_g/workspaces/ros2_py_ws/build/udemy_ros2_pkg
